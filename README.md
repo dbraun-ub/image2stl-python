@@ -8,7 +8,7 @@ You need the following packages:
 - [numpy](https://numpy.org/install/)
 - [numpy-stl](https://pypi.org/project/numpy-stl/)
 
-# Example
+# Examples
 - To generate a stl file from an rgb image.
 ```bash
 python img2stl.py --img_path images/Lenna.png --save_path stl/Lenna.stl
@@ -21,3 +21,9 @@ Only the arguments `img_path` and `save_path` are mandatory.
 ```bash
 python img2stl.py --help
 ```
+
+# Result
+
+ Input Image | Output STL 
+ --- | --- 
+<img src="images/Lenna.png" alt="Lenna.png" height="420" /> | <img src="stl/render_Lenna_stl.PNG" alt="Lenna.stl" height="420" />
